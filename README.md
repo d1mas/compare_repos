@@ -19,4 +19,4 @@ Installation
 
 Usage
 -----
-    compare_repos [rpm|deb] -o old_repo -n new_repo
+    ./compare_repos [rpm|deb] -o old_repo -n new_repo
