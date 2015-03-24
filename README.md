@@ -1,4 +1,4 @@
-compare_repos [rpm|deb] -o old_repo -n new_repo
+compare_repos 
 =============
 This tool created for comparing two different repositories of DEB or RPM packages.
 The report on outcome will show a list of update and downgrade packages.
@@ -15,8 +15,8 @@ Requirments
 
 Installation
 ------------
-0. | git clone https://github.com/d1mas/compare_repos
+    git clone https://github.com/d1mas/compare_repos
 
 Usage
 -----
-  | compare_repos [rpm|deb] -o old_repo -n new_repo
+    compare_repos [rpm|deb] -o old_repo -n new_repo
